@@ -7,7 +7,5 @@ permissions:
   id-token: write   # This is required for requesting the JWT
   contents: read    # This is required for actions/checkout
 jobs:
-  build:
-    uses: joshbarbee-com/workflows/.github/workflows/build-lambda.yml@main
   deploy-dev:
     uses: joshbarbee-com/workflows/.github/workflows/deploy-dev.yml@main
