@@ -1,0 +1,1 @@
+Redirects aws.joshbarbee.com to `https://d-9a67636455.awsapps.com/start/#/console?account_id=902448871458&role_name=SystemAdministrator` for User SSO login.
