@@ -8,6 +8,6 @@ permissions:
   contents: read    # This is required for actions/checkout
 jobs:
   build:
-    uses: joshbarbee-com/workflows/.github/workflows/python/build-lambda.yml@main
+    uses: joshbarbee-com/workflows/.github/workflows/build-lambda.yml@main
   deploy-dev:
     uses: joshbarbee-com/workflows/.github/workflows/deploy-dev.yml@main
